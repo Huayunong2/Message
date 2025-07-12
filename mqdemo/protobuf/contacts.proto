@@ -1,0 +1,12 @@
+syntax = "proto3"; // 语法声明
+
+package contacts; // 命名空间
+
+// 结构化对象描述
+message contact {
+    // 字段描述
+    // 字段类型 字段名称 = 字段唯一编号;
+    uint64 sn = 1;
+    string name = 2;
+    float score = 3;
+}
